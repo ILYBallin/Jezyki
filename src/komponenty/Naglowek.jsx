@@ -6,8 +6,6 @@ function Naglowke(){
         <div className="pasek">
             <div className="menu">
                 <Guzik text="Home"/>
-                <Guzik text="Projekty"/>
-                <Guzik text="Nigga" />
             </div>
         </div>
     )
