@@ -2,12 +2,11 @@
     --translateX: 0;
     --translateY: 0;
     --onie: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    height: auto;
+    height: 250px;
     clip-path: var(--onie);
 }
 .litera{
     display: inline-block;
-    --delay: 0s;
     margin: 0;
     color: rgb(255, 255, 255);
     font-variant: small-caps;

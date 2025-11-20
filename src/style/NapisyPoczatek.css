@@ -7,7 +7,6 @@
     animation: yeet 1.5s ease 2s 1 forwards;
 }
 .slowa{
-    font-size: 150px;
     line-height: 1;
     margin: 0;
 }
@@ -18,7 +17,7 @@
     color: rgb(255, 255, 255);
     font-variant: small-caps;
     /* font-weight: bolder; */
-    transform: translateY(110%);
+    transform: translateY(170%);
     animation: wchodzenie 0.7s cubic-bezier(.49,.79,.21,1.42) var(--delay) 1 forwards;
     animation-delay: var(--delay);
     animation-iteration-count: 1;
@@ -29,7 +28,7 @@
 
 @keyframes wchodzenie{
     from{
-        transform: translateY(110%);
+        transform: translateY(170%);
         opacity: 0;
     }
     30%{

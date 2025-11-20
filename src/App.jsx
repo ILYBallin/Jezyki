@@ -5,7 +5,6 @@ import Glowne from './strony/Glowne';
 function App() {
   return (
     <>
-      <Naglowke/>
       <Glowne/>
     </>
   );

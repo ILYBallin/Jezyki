@@ -9,6 +9,8 @@ function GlowneScroll(){
                     <ScrollPart kolor="red"/>
                     <ScrollPart kolor="blue"/>
                     <ScrollPart kolor="green"/>
+                    <ScrollPart kolor="yellow"/>
+                    <ScrollPart kolor="orange"/>
                 </div>
             </div>
         </div>
