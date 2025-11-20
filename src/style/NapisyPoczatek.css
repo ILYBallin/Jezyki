@@ -1,0 +1,54 @@
+.holder{
+    --translateX: 0;
+    --translateY: 0;
+    --onie: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    height: auto;
+    clip-path: var(--onie);
+    animation: yeet 1.5s ease 2s 1 forwards;
+}
+.slowa{
+    font-size: 150px;
+    line-height: 1;
+    margin: 0;
+}
+.litera.wejscie{
+    display: inline-block;
+    --delay: 0.2s;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-variant: small-caps;
+    /* font-weight: bolder; */
+    transform: translateY(110%);
+    animation: wchodzenie 0.7s cubic-bezier(.49,.79,.21,1.42) var(--delay) 1 forwards;
+    animation-delay: var(--delay);
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(.49,.79,.21,1.42) ;
+    /* cubic-bezier(.39,.97,.68,1.46) */
+    /* cubic-bezier(.49,.79,.21,1.42) */
+}
+
+@keyframes wchodzenie{
+    from{
+        transform: translateY(110%);
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    to{
+        transform:  translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes yeet {
+    50%{
+        transform: rotate(-45deg);
+    }
+    to{
+        transform: translate(var(--translateX),var(--translateY)) rotate(-45deg);
+        visibility: hidden;
+    }
+}
+
+
