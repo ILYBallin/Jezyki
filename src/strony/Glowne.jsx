@@ -1,5 +1,5 @@
 import "../style/Glowne.css"
-import Naglowke from "../komponenty/Naglowek"
+import GlownyKoniec from "../komponenty/GlownyKoniec"
 import GlowneMain from "../komponenty/GlowneMain"
 import GlowneScroll from "../komponenty/GlowneScroll"
 
@@ -8,6 +8,7 @@ function Glowne() {
         <div className="glowneTlo">
             <GlowneMain/>
             <GlowneScroll/>
+            <GlownyKoniec/>
         </div>
     )
 }

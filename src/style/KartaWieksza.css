@@ -1,0 +1,30 @@
+.DuzaKarta{
+    width: 70vw;
+    height: 70vh;
+    top: 15%;
+    left: 15%;
+    position: absolute;
+    color: black;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.685);
+    box-shadow: rgba(99, 99, 99, 0.418) 10px 10px;
+}
+
+.Tytul{
+    margin: 50px 0;
+    font-size: 50px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.Zawartosc{
+    margin: 100px 200px;
+    padding: 10px;
+}
+
+.linie{
+    margin: 10px;
+    font-size: 25px;
+    font-variant: small-caps;
+}

@@ -1,5 +1,11 @@
 .Bloczek{
     flex: 0 0 100vw;
     height: 100vh;
-    opacity: 0.25;
+    opacity: 1;
+    position: relative;
+}
+.Nag{
+    font-size: 30px;
+    color: black;
+    font-variant: small-caps;
 }
